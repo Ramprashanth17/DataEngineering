@@ -1,0 +1,24 @@
+{
+	"name": "NewFileTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "ControlFlowActivities",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/adf-dataloading/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/2b6a33e8-d4da-41b7-89d2-2f42df6fbc47/resourceGroups/azurepractice/providers/Microsoft.Storage/storageAccounts/cookbookdeaz",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
