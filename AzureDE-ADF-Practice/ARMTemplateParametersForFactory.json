@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AzureDE-ADF-Practice"
+		},
+		"DataLoading_accountKey": {
+			"value": ""
+		},
+		"SQLDB_password": {
+			"value": ""
+		},
+		"DataLoading_properties_typeProperties_url": {
+			"value": "https://cookbookdeaz.dfs.core.windows.net/"
+		},
+		"SQLDB_properties_typeProperties_server": {
+			"value": "adfpracticecookbook.database.windows.net"
+		},
+		"SQLDB_properties_typeProperties_database": {
+			"value": "sampleadf"
+		},
+		"SQLDB_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"NewFileTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/2b6a33e8-d4da-41b7-89d2-2f42df6fbc47/resourceGroups/azurepractice/providers/Microsoft.Storage/storageAccounts/cookbookdeaz"
+		}
+	}
+}
