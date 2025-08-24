@@ -1,0 +1,9 @@
+{
+	"name": "AzureDE-ADF-Practice",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b267e3e8-9b00-4cc0-9454-c7ce53f268a6",
+		"tenantId": "a8eec281-aaa3-4dae-ac9b-9a398b9215e7"
+	}
+}
