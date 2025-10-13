@@ -1,0 +1,86 @@
+Description,Code
+Animal on Road - Domestic  ,1
+Animal on Road - Wild  ,2
+Backed without Safety  ,3
+Changed Lane when Unsafe  ,4
+Disabled in Traffic Lane  ,14
+Disregard Stop and Go Signal  ,15
+Disregard Stop Sign or Light  ,16
+Disregard Turn Marks at Intersection  ,17
+Disregard Warning Sign at Construction  ,18
+Distraction in Vehicle  ,19
+Driver Inattention  ,20
+Drove Without Headlights  ,21
+Failed to Control Speed  ,22
+Failed to Drive in Single Lane  ,23
+Failed to Give Half of Roadway  ,24
+Failed to Heed Warning Sign or Traffic Control Device  ,25
+Failed to Pass to Left Safely  ,26
+Failed to Pass to Right Safely  ,27
+Failed to Signal or Gave Wrong Signal  ,28
+Failed to Stop at Proper Place  ,29
+Failed to Stop for School Bus  ,30
+Failed to Stop for Train  ,31
+Failed to Yield ROW - Emergency Vehicle  ,32
+Failed to Yield ROW - Open Intersection  ,33
+Failed to Yield ROW - Private Drive  ,34
+Failed to Yield ROW - Stop Sign  ,35
+Failed to Yield ROW - To Pedestrian  ,36
+Failed to Yield ROW - Turning Left  ,37
+Failed to Yield ROW - Turn on Red  ,38
+Failed to Yield ROW - Yield Sign  ,39
+Fatigued or Asleep  ,40
+Faulty Evasive Action  ,41
+Fire in Vehicle  ,42
+Fleeing or Evading Police  ,43
+Followed Too Closely  ,44
+Had Been Drinking  ,45
+Handicapped Driver (Explain in Narrative)  ,46
+Ill (Explain in Narrative)  ,47
+Impaired Visibility (Explain in Narrative)  ,48
+"Improper Start from a Stopped, Standing, or Parked Position  ",49
+Load Not Secured  ,50
+Opened Door Into Traffic Lane  ,51
+Oversized Vehicle or Load  ,52
+Overtake and Pass Insufficient Clearance  ,53
+Parked and Failed to Set Brakes  ,54
+Parked in Traffic Lane  ,55
+Parked without Lights  ,56
+Passed in No Passing Lane  ,57
+Passed on Shoulder  ,58
+Pedestrian FTYROW to Vehicle  ,59
+Unsafe Speed  ,60
+Speeding - (Over Limit)  ,61
+Taking Medication (Explain in Narrative)  ,62
+Turned Improperly - Cut Corner on Left  ,63
+Turned Improperly - Wide Right  ,64
+Turned Improperly - Wrong Lane  ,65
+Turned when Unsafe  ,66
+Intoxicated - Alcohol  ,67
+Intoxicated - Drug  ,68
+Wrong Side - Approach or Intersection  ,69
+Wrong Side - Not Passing  ,70
+Wrong Way - One Way Road  ,71
+Road Rage  ,73
+Cell/Mobile Device Use - Talking  ,74
+Cell/Mobile Device Use - Texting  ,75
+Cell/Mobile Device Use - Other  ,76
+Cell/Mobile Device Use - Unknown  ,77
+Failed to slow or move over for vehicles displaying emergency lights  ,78
+Drove on improved shoulder,79
+other,101
+BICYCLE ADVANCING LEGALLY ON RED LIGHT,120
+DISTRACTION - FROM OUTSIDE VEHICLE,121
+DISREGARDING OTHER TRAFFIC SIGNS,122
+"DISTRACTION - OTHER ELECTRONIC DEVICE (NAVIGATION DEVICE, DVD PLAYER, ETC.)",123
+DRIVING SKILLS/KNOWLEDGE/EXPERIENCE,124
+VEHICLE CONDITION,125
+FAILING TO YIELD RIGHT-OF-WAY,126
+OBSTRUCTED CROSSWALKS,127
+RELATED TO BUS STOP,128
+ROAD CONSTRUCTION/MAINTENANCE,129
+Pavement Defective,130
+WEATHER,131
+UNABLE TO DETERMINE,132
+Driver Inexperience,133
+Driverless/Runaway Vehicle,134
