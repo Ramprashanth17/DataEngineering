@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>999999999999</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>processed_file.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Report Number" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Local Case Number" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Agency Name" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="ACRS Report Type" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Crash Date/Time" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Hit/Run" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Route Type" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Lane Direction" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Lane Type" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Number of Lanes" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Direction" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Distance" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Distance Unit" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Road Grade" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Road Name" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Cross-Street Name" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Off-Road Description" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Municipality" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Related Non-Motorist" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="At Fault" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Collision Type" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Weather" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Surface Condition" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Light" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Traffic Control" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Driver Substance Abuse" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Non-Motorist Substance Abuse" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="First Harmful Event" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Second Harmful Event" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Junction" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Intersection Type" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Road Alignment" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Road Condition" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Road Division" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Latitude" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Longitude" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="Location" size="16777216" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_WString" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="234" y="149" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Report Number" selected="True" />
+            <Field field="Local Case Number" selected="True" />
+            <Field field="Agency Name" selected="True" />
+            <Field field="ACRS Report Type" selected="True" />
+            <Field field="Crash Date/Time" selected="True" />
+            <Field field="Hit/Run" selected="True" />
+            <Field field="Route Type" selected="True" />
+            <Field field="Lane Direction" selected="True" />
+            <Field field="Lane Type" selected="True" />
+            <Field field="Number of Lanes" selected="True" />
+            <Field field="Direction" selected="True" />
+            <Field field="Distance" selected="True" />
+            <Field field="Distance Unit" selected="True" />
+            <Field field="Road Grade" selected="True" />
+            <Field field="Road Name" selected="True" />
+            <Field field="Cross-Street Name" selected="True" />
+            <Field field="Off-Road Description" selected="True" />
+            <Field field="Municipality" selected="True" />
+            <Field field="Related Non-Motorist" selected="True" />
+            <Field field="At Fault" selected="True" />
+            <Field field="Collision Type" selected="True" />
+            <Field field="Weather" selected="True" />
+            <Field field="Surface Condition" selected="True" />
+            <Field field="Light" selected="True" />
+            <Field field="Traffic Control" selected="True" />
+            <Field field="Driver Substance Abuse" selected="True" />
+            <Field field="Non-Motorist Substance Abuse" selected="True" />
+            <Field field="First Harmful Event" selected="True" />
+            <Field field="Second Harmful Event" selected="True" />
+            <Field field="Junction" selected="True" />
+            <Field field="Intersection Type" selected="True" />
+            <Field field="Road Alignment" selected="True" />
+            <Field field="Road Condition" selected="True" />
+            <Field field="Road Division" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="FileName" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Report Number" size="12" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="String" />
+            <Field name="Local Case Number" size="11" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="String" />
+            <Field name="Agency Name" size="25" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="String" />
+            <Field name="ACRS Report Type" size="21" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="String" />
+            <Field name="Crash Date/Time" size="22" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="String" />
+            <Field name="Hit/Run" size="3" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="String" />
+            <Field name="Route Type" size="22" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Lane Direction" size="38" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Lane Type" size="45" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Number of Lanes" size="8" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Direction" size="7" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="String" />
+            <Field name="Distance" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="Double" />
+            <Field name="Distance Unit" size="7" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="String" />
+            <Field name="Road Grade" size="24" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Road Name" size="43" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Cross-Street Name" size="81" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Off-Road Description" size="187" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Municipality" size="19" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Related Non-Motorist" size="86" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="At Fault" size="11" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="String" />
+            <Field name="Collision Type" size="29" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Weather" size="33" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Surface Condition" size="24" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Light" size="24" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Traffic Control" size="96" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Driver Substance Abuse" size="405" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Non-Motorist Substance Abuse" size="157" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="First Harmful Event" size="54" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Second Harmful Event" size="76" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Junction" size="90" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Intersection Type" size="25" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Road Alignment" size="33" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Road Condition" size="24" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Road Division" size="125" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="V_String" />
+            <Field name="Latitude" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="Double" />
+            <Field name="Location" size="27" source="File: C:\Users\happy\OneDrive\Desktop\DADABI\Final Project\Raw_Data\processed_file.tsv" type="String" />
+            <Field name="FileName" size="14" source="File: FileName" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="930" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\happy\AppData\Local\Temp\Alteryx\Engine_18468_29925559e1832a4290477aa9418baabb_\Engine_18468_2942ee15a3671d4c9a648b91f1441716~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Report Number" selected="True" />
+            <SelectField field="Local Case Number" selected="True" type="V_WString" size="2147483647" />
+            <SelectField field="Agency Name" selected="True" />
+            <SelectField field="ACRS Report Type" selected="True" />
+            <SelectField field="Crash Date/Time" selected="True" />
+            <SelectField field="Hit/Run" selected="True" />
+            <SelectField field="Route Type" selected="True" />
+            <SelectField field="Lane Direction" selected="True" />
+            <SelectField field="Lane Type" selected="True" />
+            <SelectField field="Number of Lanes" selected="True" type="V_WString" size="2147483647" />
+            <SelectField field="Direction" selected="True" type="V_WString" size="2147483647" />
+            <SelectField field="Distance" selected="True" type="Float" size="4" />
+            <SelectField field="Distance Unit" selected="True" />
+            <SelectField field="Road Grade" selected="True" />
+            <SelectField field="Road Name" selected="True" />
+            <SelectField field="Cross-Street Name" selected="True" />
+            <SelectField field="Off-Road Description" selected="True" />
+            <SelectField field="Municipality" selected="True" />
+            <SelectField field="Related Non-Motorist" selected="True" />
+            <SelectField field="At Fault" selected="True" />
+            <SelectField field="Collision Type" selected="True" />
+            <SelectField field="Weather" selected="True" />
+            <SelectField field="Surface Condition" selected="True" />
+            <SelectField field="Light" selected="True" />
+            <SelectField field="Traffic Control" selected="True" />
+            <SelectField field="Driver Substance Abuse" selected="True" />
+            <SelectField field="Non-Motorist Substance Abuse" selected="True" />
+            <SelectField field="First Harmful Event" selected="True" />
+            <SelectField field="Second Harmful Event" selected="True" />
+            <SelectField field="Junction" selected="True" />
+            <SelectField field="Intersection Type" selected="True" />
+            <SelectField field="Road Alignment" selected="True" />
+            <SelectField field="Road Condition" selected="True" />
+            <SelectField field="Road Division" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="CRASH_RECORD_ID" selected="False" size="255" />
+            <SelectField field="CRASH_DATE" selected="False" type="V_String" size="2147483647" />
+            <SelectField field="DATE_POLICE_NOTIFIED" selected="False" type="V_String" size="2147483647" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings>
+        <Position x="786" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">CRASH_RECORD_ID=True,CRASH_DATE_EST_I=True,CRASH_DATE=True,POSTED_SPEED_LIMIT=True,TRAFFIC_CONTROL_DEVICE=True,DEVICE_CONDITION=True,WEATHER_CONDITION=True,LIGHTING_CONDITION=True,FIRST_CRASH_TYPE=True,TRAFFICWAY_TYPE=True,LANE_CNT=True,ALIGNMENT=True,ROADWAY_SURFACE_COND=True,ROAD_DEFECT=True,REPORT_TYPE=True,CRASH_TYPE=True,INTERSECTION_RELATED_I=True,NOT_RIGHT_OF_WAY_I=True,HIT_AND_RUN_I=True,DAMAGE=True,DATE_POLICE_NOTIFIED=True,PRIM_CONTRIBUTORY_CAUSE=True,SEC_CONTRIBUTORY_CAUSE=True,STREET_NO=True,STREET_DIRECTION=True,STREET_NAME=True,BEAT_OF_OCCURRENCE=True,PHOTOS_TAKEN_I=True,STATEMENTS_TAKEN_I=True,DOORING_I=True,WORK_ZONE_I=True,WORK_ZONE_TYPE=True,WORKERS_PRESENT_I=True,NUM_UNITS=True,MOST_SEVERE_INJURY=True,INJURIES_TOTAL=True,INJURIES_FATAL=True,INJURIES_INCAPACITATING=True,INJURIES_NON_INCAPACITATING=True,INJURIES_REPORTED_NOT_EVIDENT=True,INJURIES_NO_INDICATION=True,INJURIES_UNKNOWN=True,CRASH_HOUR=True,CRASH_DAY_OF_WEEK=True,CRASH_MONTH=True,LATITUDE=True,LONGITUDE=True,LOCATION=True,FileName=True,Crash_Date_Date_fmt=True,Police_Notified_Date_fmt=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="462" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Crash Date/Time</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy hh:mm:ss</Format>
+          <OutputFieldName>Crash_Date_Date_fmt</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Crash Date/Time From:
+MM/dd/yyyy hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="630" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Report Number" selected="True" />
+            <SelectField field="Local Case Number" selected="True" />
+            <SelectField field="Agency Name" selected="True" />
+            <SelectField field="ACRS Report Type" selected="True" />
+            <SelectField field="Crash Date/Time" selected="True" />
+            <SelectField field="Hit/Run" selected="True" />
+            <SelectField field="Route Type" selected="True" />
+            <SelectField field="Lane Direction" selected="True" />
+            <SelectField field="Lane Type" selected="True" />
+            <SelectField field="Number of Lanes" selected="True" />
+            <SelectField field="Direction" selected="True" />
+            <SelectField field="Distance" selected="True" />
+            <SelectField field="Distance Unit" selected="True" />
+            <SelectField field="Road Grade" selected="True" />
+            <SelectField field="Road Name" selected="True" />
+            <SelectField field="Cross-Street Name" selected="True" />
+            <SelectField field="Off-Road Description" selected="True" />
+            <SelectField field="Municipality" selected="True" />
+            <SelectField field="Related Non-Motorist" selected="True" />
+            <SelectField field="At Fault" selected="True" />
+            <SelectField field="Collision Type" selected="True" />
+            <SelectField field="Weather" selected="True" />
+            <SelectField field="Surface Condition" selected="True" />
+            <SelectField field="Light" selected="True" />
+            <SelectField field="Traffic Control" selected="True" />
+            <SelectField field="Driver Substance Abuse" selected="True" />
+            <SelectField field="Non-Motorist Substance Abuse" selected="True" />
+            <SelectField field="First Harmful Event" selected="True" />
+            <SelectField field="Second Harmful Event" selected="True" />
+            <SelectField field="Junction" selected="True" />
+            <SelectField field="Intersection Type" selected="True" />
+            <SelectField field="Road Alignment" selected="True" />
+            <SelectField field="Road Condition" selected="True" />
+            <SelectField field="Road Division" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="Crash_Date_Date_fmt" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\happy\AppData\Local\Temp\Alteryx\Engine_18468_29925559e1832a4290477aa9418baabb_\Engine_18468_f20414542f6a85439f9aa6b2a9d36541~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="798" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\happy\AppData\Local\Temp\Alteryx\Engine_18468_29925559e1832a4290477aa9418baabb_\Engine_18468_6595b67bc8e89348a44401f82cafad00~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Reports" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="14" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Montgomery_Crashes</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="3a458507-6e3d-4858-a87e-d7f7db1aefbc" />
+      <Telemetry>
+        <PreviousWorkflowId value="74343eab-bb7e-49ab-960f-2d57ce7db7ab" />
+        <OriginWorkflowId value="30050029-0928-4b60-92ff-52c7444c361c" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
