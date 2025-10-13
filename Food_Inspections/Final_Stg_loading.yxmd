@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <Query>SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">e9201ed2-0151-4cae-8723-679a86cc851b</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Snowflake ODBC — Username and password
+Query=SELECT * FROM FOOD_INSPECTIO...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_ID" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="DBA_Name" size="100" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="AKA_Name" size="5000" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="License_no" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Facility_Type" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Risk_Level" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Risk_Category" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Address" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="City" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="State" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Zip" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Inspection_Date" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Inspection_Type" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Results" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Latitude" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="Double" />
+            <Field name="Longitude" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="Double" />
+            <Field name="Location" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Violation_Category_ID" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Violation_Category" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Violation_Comments" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Violation_Score" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Result_Score" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Risk_Score" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Total_Violation_Score" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Inspection_Result" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="DateTime_Out" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="Date" />
+            <Field name="File_Name" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="User_Name" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+            <Field name="Load_Date" size="16777216" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <Query>FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">e9201ed2-0151-4cae-8723-679a86cc851b</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Snowflake ODBC — Username and password
+Query=FOOD_INSPECTIONS.DADABI_MIDT...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_ID" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="InspectionId_Created" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Restaurant_Name" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Inspection_Type" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Inspection_Date" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Inspection_Score" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="Street_Number" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Street_Name" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Street_Direction" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Street_Type" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Street_Unit" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Street_Address" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="City" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="State" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Zip_Code" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="Inspection_Month" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Inspection_Year" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Latitude" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="Double" />
+            <Field name="Longitude" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="Double" />
+            <Field name="Violation_Category_Id" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="Violation_Category" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Violation_Others" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Violation_Point" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="Facility_Type" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Sum_Violation_Point" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="Risk_Category" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Inspection_Result" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="DateTime_Out" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="Date" />
+            <Field name="File_Name" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="User_Name" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Load_Date" size="16777216" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="222" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="DBA_Name" selected="True" />
+            <Field field="AKA_Name" selected="True" />
+            <Field field="License_no" selected="True" />
+            <Field field="Facility_Type" selected="True" />
+            <Field field="Risk_Category" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Inspection_Date" selected="True" />
+            <Field field="Inspection_Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="Violation_Category" selected="True" />
+            <Field field="Violation_Comments" selected="True" />
+            <Field field="Inspection_Result" selected="True" />
+            <Field field="File_Name" selected="True" />
+            <Field field="User_Name" selected="True" />
+            <Field field="Load_Date" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_ID" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="DBA_Name" size="79" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_String" />
+            <Field name="AKA_Name" size="79" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_String" />
+            <Field name="License_no" size="7" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="String" />
+            <Field name="Facility_Type" size="47" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_String" />
+            <Field name="Risk_Level" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Risk_Category" size="6" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="String" />
+            <Field name="Address" size="51" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_String" />
+            <Field name="City" size="20" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_String" />
+            <Field name="State" size="2" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="String" />
+            <Field name="Zip" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Inspection_Date" size="10" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="String" />
+            <Field name="Inspection_Type" size="41" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_String" />
+            <Field name="Results" size="20" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_String" />
+            <Field name="Latitude" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="Double" />
+            <Field name="Longitude" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="Double" />
+            <Field name="Location" size="40" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="String" />
+            <Field name="Violation_Category_ID" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Violation_Category" size="134" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_String" />
+            <Field name="Violation_Comments" size="5422" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_String" />
+            <Field name="Violation_Score" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Result_Score" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Risk_Score" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Total_Violation_Score" scale="0" size="21" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="FixedDecimal" />
+            <Field name="Inspection_Result" size="17" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="V_String" />
+            <Field name="DateTime_Out" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="Date" />
+            <Field name="File_Name" size="25" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="String" />
+            <Field name="User_Name" size="5" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="String" />
+            <Field name="Load_Date" size="19" source="File: SELECT * FROM FOOD_INSPECTIONS.DADABI_MIDTERM.STG_CHICAGO" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="198" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="InspectionId_Created" selected="True" />
+            <Field field="Restaurant_Name" selected="True" />
+            <Field field="Inspection_Type" selected="True" />
+            <Field field="Inspection_Date" selected="True" />
+            <Field field="Street_Number" selected="True" />
+            <Field field="Street_Name" selected="True" />
+            <Field field="Street_Direction" selected="True" />
+            <Field field="Street_Type" selected="True" />
+            <Field field="Street_Unit" selected="True" />
+            <Field field="Street_Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Inspection_Month" selected="True" />
+            <Field field="Inspection_Year" selected="True" />
+            <Field field="Violation_Category" selected="True" />
+            <Field field="Violation_Others" selected="True" />
+            <Field field="Facility_Type" selected="True" />
+            <Field field="Risk_Category" selected="True" />
+            <Field field="Inspection_Result" selected="True" />
+            <Field field="File_Name" selected="True" />
+            <Field field="User_Name" selected="True" />
+            <Field field="Load_Date" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_ID" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="InspectionId_Created" size="9" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Restaurant_Name" size="65" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_String" />
+            <Field name="Inspection_Type" size="9" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Inspection_Date" size="10" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Inspection_Score" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="Street_Number" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="Int32" />
+            <Field name="Street_Name" size="25" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_String" />
+            <Field name="Street_Direction" size="2" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Street_Type" size="4" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Street_Unit" size="5" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Street_Address" size="37" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_String" />
+            <Field name="City" size="6" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="State" size="2" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Zip_Code" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="Inspection_Month" size="8" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Inspection_Year" size="6" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Latitude" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="Double" />
+            <Field name="Longitude" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="Double" />
+            <Field name="Violation_Category_Id" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="Violation_Category" size="98" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Violation_Others" size="2757" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_WString" />
+            <Field name="Violation_Point" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="Facility_Type" size="9" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Sum_Violation_Point" scale="0" size="21" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="FixedDecimal" />
+            <Field name="Risk_Category" size="6" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Inspection_Result" size="17" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="V_String" />
+            <Field name="DateTime_Out" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="Date" />
+            <Field name="File_Name" size="85" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="User_Name" size="5" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="String" />
+            <Field name="Load_Date" size="19" source="File: FOOD_INSPECTIONS.DADABI_MIDTERM.STG_DALLAS" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection_ID" selected="True" type="V_WString" size="16777216" />
+            <SelectField field="DBA_Name" selected="True" rename="Name" size="16777216" />
+            <SelectField field="Facility_Type" selected="True" />
+            <SelectField field="Risk_Category" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" rename="Zip_Code" type="Int64" size="8" />
+            <SelectField field="Inspection_Date" selected="True" />
+            <SelectField field="Inspection_Type" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Violation_Category_ID" selected="True" rename="Violation_Category_Id" type="Int64" size="8" />
+            <SelectField field="Violation_Category" selected="True" />
+            <SelectField field="Violation_Score" selected="True" type="Int64" size="8" />
+            <SelectField field="Total_Violation_Score" selected="True" type="Int64" size="8" />
+            <SelectField field="Inspection_Result" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="InspectionId_Created" selected="True" rename="Inspection_ID" />
+            <SelectField field="Restaurant_Name" selected="True" rename="Name" />
+            <SelectField field="Inspection_Type" selected="True" />
+            <SelectField field="Inspection_Date" selected="True" type="V_WString" size="20" />
+            <SelectField field="Inspection_Score" selected="True" rename="Total_Violation_Score" type="Int64" size="8" />
+            <SelectField field="Street_Address" selected="True" rename="Address" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip_Code" selected="True" type="Int64" size="8" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Violation_Category_Id" selected="True" type="Int64" size="8" />
+            <SelectField field="Violation_Category" selected="True" />
+            <SelectField field="Facility_Type" selected="True" />
+            <SelectField field="Sum_Violation_Point" selected="True" rename="Violation_Score" type="Int64" size="8" />
+            <SelectField field="Risk_Category" selected="True" />
+            <SelectField field="Inspection_Result" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="438" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\happy\AppData\Local\Temp\Alteryx\Engine_9976_15046b0bade91041a4f864e3824b918b_\Engine_9976_6d56bfd9ec40d74cba924ee633d965e7~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="594" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>STG_FINAL_FOOD_INSPECTIONS</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Create</OutputOption>
+            <Connection DcmType="ConnectionId">e9201ed2-0151-4cae-8723-679a86cc851b</Connection>
+            <PostSQL />
+            <TransactionSize>1000000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Snowflake ODBC — Username and password
+Table=STG_FINAL_FOOD_INSPECTIONS</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Final_Stg_loading</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="59a2ef90-5711-4814-bde5-3fc83b02524b" />
+      <Telemetry>
+        <PreviousWorkflowId value="44191b58-9914-4946-9095-671fa94040a7" />
+        <OriginWorkflowId value="44191b58-9914-4946-9095-671fa94040a7" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
