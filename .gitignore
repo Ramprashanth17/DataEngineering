@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Credentials - NEVER COMMIT!
+.env
+*.env
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+Basic_DE/venv/
+Basic_DE/.env
+Basic_DE/data/*.csv
+Basic_DE/data/*.json
+Basic_DE/dbt/target/
+Basic_DE/dbt/logs/
+Basic_DE/dbt/dbt_packages/
