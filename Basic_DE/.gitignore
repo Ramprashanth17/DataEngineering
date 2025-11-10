@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Credentials - NEVER COMMIT!
+.env
+*.env
+
+# Data
+data/*.csv
+data/*.json
+
+# Logs
+logs/
+*.log
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# OS
+.DS_Store
+*.swp
