@@ -107,3 +107,89 @@ def clean_data(df):
      print(f"Cleaned data: {len(df)} records ready to load")
      return df
     
+    #### Loading to Snowflake ###
+def load_to_snowflake(df):
+    """
+    Load data to Snowflake RAW layer
+    
+    Args:
+        df: Cleaned pandas DataFrame
+    """
+    print(" Loading data to Snowflake...")
+    
+    # Connect to Snowflake
+    try:
+        conn = snowflake.connector.connect(
+            account=os.getenv('SNOWFLAKE_ACCOUNT'),
+            user=os.getenv('SNOWFLAKE_USER'),
+            password=os.getenv('SNOWFLAKE_PASSWORD'),
+            warehouse=os.getenv('SNOWFLAKE_WAREHOUSE'),
+            database=os.getenv('SNOWFLAKE_DATABASE'),
+            role=os.getenv('SNOWFLAKE_ROLE'),
+            schema='RAW'
+        )
+        
+        cursor = conn.cursor()
+
+        ## Truncate table and load it fresh
+        print("Truncating existing data....")
+        cursor.execute("TRUNCATE TABLE NYC_311")
+
+        # Load using pandas write__pandas(bulk_insert)
+        from snowflake.connector.pandas_tools import write_pandas
+
+        success, nchunks, nrows, _ = write_pandas(
+            conn = conn,
+            df = df,
+            table_name = 'NYC_311',
+            schema = 'RAW',
+            database = 'DE_LEARNING',
+            auto_create_table = False,
+            overwrite = False
+        )
+
+        if success:
+            print(f"Successfully loaded {nrows} rows to snowflake!")
+        else:
+            print("Falied to load data to Snowflake")
+
+        # Validate load
+        cursor.execute("SELECT COUNT(*) FROM NYC_311")
+        count = cursor.fetchone()[0]
+        print(f"Total records in Snowflake: {count}")
+
+        cursor.close()
+        conn.close()
+
+    except Exception as e:
+        print(f"Error loading to Snowflake: {str(e)}")
+        raise
+
+def main():
+    """Main ETL pipeline"""
+    print("=" * 45)
+    print("NYC 311 data ingestion pipeline")
+    print("="*45)
+
+    try:
+        df = fetch_311_data(limit=1000, days_back=7)
+
+        # Transform
+        df_clean = clean_data(df)
+
+        #Load
+        load_to_snowflake(df_clean)
+
+        print("\n"+ "=" * 45)
+        print("Pipeline completed successfully!")
+        print("="* 45)
+
+    except Exception as e:
+        print("\n"+ "=" * 45)
+        print("Pipeline failed: {str(e)}")
+        print("="* 45)
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
