@@ -1,0 +1,14 @@
+nyc_311_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: krmhysj-kcb74946
+      user: RAMP9917
+      password: Ramprashanth1799
+      role: ACCOUNTADMIN
+      database: DE_LEARNING
+      warehouse: COMPUTE_WH
+      schema: STAGING
+      threads: 4
+      client_session_keep_alive: False

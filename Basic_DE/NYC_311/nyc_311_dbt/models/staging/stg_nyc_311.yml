@@ -1,0 +1,34 @@
+models:
+  - name: stg_nyc_311
+    description: Staging table for NYC 311 service requests with cleaned and standardized data
+    
+    columns:
+      - name: request_id
+        description: Unique identifier for each service request
+        tests:
+          - unique
+          - not_null
+      
+      - name: created_at
+        description: Timestamp when the request was created
+        tests:
+          - not_null
+      
+      - name: agency_code
+        description: NYC agency code (cleaned and standardized)
+        tests:
+          - not_null
+      
+      - name: complaint_type
+        description: Type of complaint (cleaned and standardized)
+        tests:
+          - not_null
+      
+      - name: borough_name
+        description: NYC borough name
+        tests:
+          - accepted_values:
+              values: ['MANHATTAN', 'BROOKLYN', 'QUEENS', 'BRONX', 'STATEN ISLAND', 'UNKNOWN']
+      
+      - name: request_status
+        description: Current status of the request
