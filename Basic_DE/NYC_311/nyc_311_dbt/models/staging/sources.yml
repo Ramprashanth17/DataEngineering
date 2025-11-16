@@ -1,0 +1,35 @@
+sources:
+  - name: raw
+    database: DE_LEARNING
+    schema: RAW
+    description: Raw data layer from ingestion pipelines
+    
+    tables:
+      - name: nyc_311
+        description: Raw NYC 311 service requests from NYC Open Data API
+        columns:
+          - name: unique_key
+            description: Unique identifier for each service request
+            tests:
+              - not_null
+              - unique
+          
+          - name: created_date
+            description: Timestamp when the request was created
+            tests:
+              - not_null
+          
+          - name: agency
+            description: NYC agency responsible for handling the request
+          
+          - name: complaint_type
+            description: Type of complaint or service request
+          
+          - name: borough
+            description: NYC borough where the request originated
+          
+          - name: status
+            description: Current status of the request
+          
+          - name: loaded_at
+            description: Timestamp when data was loaded to Snowflake
