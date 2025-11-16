@@ -6,6 +6,7 @@ Fetches data from NYC Open Data API and loads to Snowflake RAW layer
 import pandas as pd
 import snowflake.connector
 from datetime import datetime, timedelta
+import requests
 import os
 import sys
 
@@ -47,11 +48,23 @@ def fetch_311_data(limit=1000, days_back=7):
      }
     
     try:
-        # Fetch data
-        df = pd.read_json(url, params=params)
+        # Make the GET request to the API
+        print("Sending API request with parameters...")
+        response = requests.get(url, params = params)
+        # Check for the status
+        response.raise_for_status()
+        # Load the json content, response.json() converts the json to python list/dict which pd.DataFrame reads
+        df = pd.DataFrame(response.json())
         print(f"Successfully fetched {len(df)} records")
         return df
     
+    except requests.exceptions.HTTPError as errh:
+        print(f"HTTP error occurred: {errh}")
+        print(f"Reqeust URL: {response.url}")
+        raise
+    except requests.exceptions.RequestException as e:
+        print(f"General request error: {str(e)}")
+        raise
     except Exception as e:
         print(f"Error fetching data: {str(e)}")
         raise
@@ -65,16 +78,21 @@ def clean_data(df):
      """
      print("Cleaning data....")
 
-     # Select relevant columns
-     columns = [
-         'unique_key', 'created_date', 'agency', 'complaint_type',
-        'descriptor', 'location_type', 'incident_zip', 'borough',
-        'latitude', 'longitude', 'status'
-     ]
+     # Select relevant columns converted API lowercase cols to SF's uppercase
+     column_mapping = {
+        'unique_key': 'UNIQUE_KEY',
+        'created_date': 'CREATED_DATE',
+        'agency': 'AGENCY',
+        'complaint_type': 'COMPLAINT_TYPE',
+        'borough': 'BOROUGH',
+        'status': 'STATUS'
+    }
 
      # Keep the cols in the df that are present in our relevant cols
-     available_col = [col for col in columns if col in df.columns]
+     available_col = [col for col in column_mapping.keys() if col in df.columns]
      df = df[available_col].copy()
+
+     df = df.rename(columns=column_mapping)
 
      # Convert created_date to datetime
      if 'created_date' in df.columns:
@@ -186,7 +204,7 @@ def main():
 
     except Exception as e:
         print("\n"+ "=" * 45)
-        print("Pipeline failed: {str(e)}")
+        print(f"Pipeline failed: {str(e)}")
         print("="* 45)
         sys.exit(1)
 
